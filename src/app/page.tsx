@@ -79,29 +79,21 @@ export default function Portfolio() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-6 bg-white text-center">
+      <section id="contact" className="py-20 px-6 text-center bg-white">
         <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
         <p className="text-lg text-gray-700 mb-6">
           Let's build something amazing together.
         </p>
-
-        <div className="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-10">
-          <img
-  src="\download.jpg"
-  alt="Muhammad Hasan"
-  className="w-40 h-40 object-cover rounded-full shadow-md border-2 border-gray-300"
-/>
-          <div className="flex space-x-6 text-gray-600">
-            <a href="mailto:hn8378429@gmail.com" className="hover:text-black">
-              <Mail />
-            </a>
-            <a href="https://github.com/hn8378429" target="_blank" className="hover:text-black">
-              <Github />
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-black">
-              <Linkedin />
-            </a>
-          </div>
+        <div className="flex justify-center space-x-6 text-gray-600">
+          <a href="mailto:hn8378429@gmail.com" className="hover:text-black">
+            <Mail />
+          </a>
+          <a href="https://github.com/hn8378429" target="_blank" className="hover:text-black">
+            <Github />
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-black">
+            <Linkedin />
+          </a>
         </div>
       </section>
     </main>
